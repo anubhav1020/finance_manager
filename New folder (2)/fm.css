@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('your-desired-image.jpg'); /* Replace 'your-desired-image.jpg' with the path to your desired background image */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0; /* Add padding top and bottom */
+}
+
+.site-name {
+    color: #fff; /* Set text color to white */
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; /* Place items at the beginning and end of the container */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add padding to the sides */
+    max-width: 1200px; /* Limit max width */
+    margin: 0 auto; /* Center the main content */
+}
+
+.about-section {
+    flex: 0.8; /* Take up remaining space */
+    background-color: #f0f0f0;
+    padding: 150px 200px; /* Increase vertical padding */
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 5, 10);
+    margin-right: 500px; /* Add some margin between sections */
+    max-width: 100px; /* Increase width */
+}
+
+.login-signup-modal {
+    width: 300px; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, , 10);
+    margin-left: auto; /* Push it to the right */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    outline: none; /* Remove outline */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
